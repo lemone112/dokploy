@@ -31,7 +31,6 @@ const { handler, api } = betterAuth({
 		schema: schema,
 	}),
 	disabledPaths: [
-		"/sso/register",
 		"/organization/create",
 		"/organization/update",
 		"/organization/delete",
